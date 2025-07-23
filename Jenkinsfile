@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-                git 'your_repository_url'
+                git 'https://github.com/kamal47thakur/nodejs.git'
             }
         }
         stage('Build') {
